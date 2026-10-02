@@ -1,0 +1,4 @@
+interface:
+  display_name: "原徒步专家（多场景兼容）"
+  short_description: "保留原专家入口，按指定的户外徒步或家庭娱乐类型分析素材、出分镜和剪辑"
+  default_prompt: "用 $hiking-vlog-director，按我指定的户外徒步或家庭娱乐类型分析素材并生成分镜。"

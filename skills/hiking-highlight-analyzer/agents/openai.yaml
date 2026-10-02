@@ -1,0 +1,4 @@
+interface:
+  display_name: "原徒步选片器（兼容入口）"
+  short_description: "保留旧决策器调用方式，转用多场景规则生成有证据的选片计划与编辑分镜"
+  default_prompt: "用 $hiking-highlight-analyzer，把已有分析按指定类型生成分镜和剪辑计划。"

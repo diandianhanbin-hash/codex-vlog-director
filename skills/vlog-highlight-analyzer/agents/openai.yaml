@@ -1,0 +1,4 @@
+interface:
+  display_name: "多场景 Vlog 分镜与选片"
+  short_description: "依据户外徒步或家庭娱乐规则，将已有分析转成选片决策、编辑分镜和剪辑计划"
+  default_prompt: "用 $vlog-highlight-analyzer，按我指定的场景，把已有素材分析生成分镜和 edit-plan.yaml。"

@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+*.mp4
+*.mov
+*.m4v
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.zip
+.env
+.env.*
+!.env.example

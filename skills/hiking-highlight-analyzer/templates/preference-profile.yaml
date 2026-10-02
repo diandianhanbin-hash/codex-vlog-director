@@ -1,0 +1,38 @@
+profile_name: "default_hiking_vlog"
+
+output:
+  target_duration_minutes:
+    min: 6
+    max: 10
+  style: "natural_documentary"
+
+priorities:
+  preserve:
+    - departure_and_ending
+    - journey_stage_changes
+    - first_important_landscape_reveal
+    - challenge
+    - summit_or_destination
+    - authentic_human_reaction
+    - meaningful_ambient_sound
+  reduce:
+    - repetitive_walking
+    - repetitive_forest
+    - repetitive_landscape
+    - low_value_monologue
+    - accidental_or_obstructed_footage
+
+pacing:
+  transition_seconds: [2, 8]
+  landscape_seconds: [4, 12]
+  reveal_seconds: [6, 20]
+  allow_longer_climax: true
+  preserve_complete_spoken_thought: true
+
+audio:
+  prefer_natural_sound: true
+  continuous_bgm: false
+
+subtitles:
+  all_dialogue: false
+  important_dialogue_only: true

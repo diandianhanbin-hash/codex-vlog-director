@@ -1,0 +1,40 @@
+schema_version: "2.0"
+project:
+  scene_type: null
+  sources: []
+  primary_subject: null
+  target_duration_seconds: null
+  style: natural_documentary
+input_summary:
+  evidence_reports: []
+  visual_coverage: null
+  audio_evidence: null
+  candidate_segment_count: 0
+  limitations: []
+constraints:
+  preserve_originals: true
+  preserve_actual_time_relations: true
+  no_total_score: true
+  user_must_keep: []
+similarity_groups: []
+segments: []
+selected_order: []
+story_check: {}
+selection_summary:
+  selected_source_duration_seconds: 0
+  transition_overlap_seconds: 0
+  added_duration_seconds: 0
+  estimated_final_duration_seconds: 0
+  target_duration_seconds: null
+  duration_warning: false
+  assumptions: []
+editor_handoff:
+  ready_for_execution: false
+  evidence_readiness:
+    visual_events: null
+    audio: null
+    cut_points: null
+  deliverable_scope: null
+  framing_notes: []
+  sound_notes: []
+  unresolved_ranges: []

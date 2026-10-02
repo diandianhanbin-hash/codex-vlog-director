@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频画面分析"
+  short_description: "通过本地 FFmpeg 抽帧与视觉观察生成带时间戳的视频内容报告"
+  default_prompt: "用 $ffmpeg-analyse-video 分析这段视频，生成时间轴和关键帧报告。"

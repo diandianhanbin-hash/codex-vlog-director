@@ -1,0 +1,4 @@
+interface:
+  display_name: "FFmpeg 视频与音频剪辑"
+  short_description: "使用本地脚本完成视频裁剪、拼接、字幕、音频处理与导出验证"
+  default_prompt: "用 $ffmpeg-skill 按这份剪辑计划完成裁剪、拼接并导出成片。"

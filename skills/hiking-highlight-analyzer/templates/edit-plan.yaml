@@ -1,0 +1,50 @@
+schema_version: "1.0"
+
+project:
+  type: hiking_vlog
+  source_name: "{{source_name}}"
+  source_duration: "{{source_duration}}"
+  target_duration_seconds: "{{target_duration_seconds}}"
+  style: natural_documentary
+
+input_summary:
+  candidate_segment_count: "{{candidate_segment_count}}"
+  upstream_evidence:
+    keyframes: "{{has_keyframes}}"
+    transcript: "{{has_transcript}}"
+    scene_descriptions: "{{has_scene_descriptions}}"
+  notes: []
+
+constraints:
+  preserve_journey_feel: true
+  avoid_repetitive_walking: true
+  prefer_natural_sound: true
+  no_total_score: true
+
+similarity_groups: []
+
+segments: []
+
+story_check:
+  opening: not_available
+  journey_progression: not_available
+  environment_change: not_available
+  human_experience: not_available
+  key_reveal: not_available
+  climax: not_available
+  ending: not_available
+  gaps: []
+
+selection_summary:
+  must_keep_count: 0
+  keep_count: 0
+  optional_count: 0
+  drop_count: 0
+  estimated_selected_duration_seconds: 0
+  target_duration_seconds: "{{target_duration_seconds}}"
+  duration_warning: false
+  recommended_minimum_duration_seconds: null
+
+editor_handoff:
+  ready_for_execution: false
+  notes: []
